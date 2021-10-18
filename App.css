@@ -1,0 +1,31 @@
+.sidebar{
+  width: 100px;
+  height: max-content;
+  min-width: 250px;
+  padding: 20px 20px;
+margin-top:5%;
+margin-left: 0%;
+  box-shadow: 0 0 6px hsl(210 14% 90%);
+}
+.link{
+  display: flex;
+  align-items: cover;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.link:hover{
+  background-color: #3d3e3e;
+  color: #a2a8ff;
+  transition: color 100ms ease-out;
+}
+.link > h2{
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.link > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+
+
